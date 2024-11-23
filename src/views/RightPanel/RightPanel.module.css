@@ -1,0 +1,23 @@
+.RightPanel {
+    width: 240px;
+    padding-top: 120px;
+}
+
+.ListButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+/* TODO: сделать стили для разных модификаторов объектов слайда */
+.DecoratorContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    max-height: 720px;
+}

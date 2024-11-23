@@ -1,0 +1,10 @@
+.smallButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,59 @@
+.mainPanel {
+    margin-top: 120px;
+    width: 840px;
+    min-height: 530px;
+    height: 100%;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    border: 0;
+    background: transparent;
+    margin: 0 auto 15px auto;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text {
+    font-family: Inter, 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    height: 465px;
+    padding-top: 400px;
+    color: #aaaaaa;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+}
+
+.title:focus  {
+    outline: none;
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+}
+
+.buttonPanel {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.input {
+    visibility: hidden;
+    width: 0;
+    position: absolute;
+    bottom: 50px;
+}

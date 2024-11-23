@@ -1,0 +1,52 @@
+.LeftPanel {
+    width: 360px;
+    padding-top: 120px;
+}
+
+.ListButtons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.SlidesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    max-height: 720px;
+}
+
+.text {
+    font-family: Inter, 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #aaaaaa;
+}
+
+/*добавить для других браузеров*/
+.SlidesContainer::-webkit-scrollbar {
+    width: 10px;
+}
+
+.SlidesContainer::-webkit-scrollbar-track {
+    background: #eeeeee;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.SlidesContainer::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #eeeeee;
+}
+
+
+
+

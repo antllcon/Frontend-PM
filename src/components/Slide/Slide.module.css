@@ -1,0 +1,34 @@
+.Slide {
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    min-height: 165px;
+}
+
+.Slide svg {
+    display: block;
+    vertical-align: middle;
+}
+
+.Number {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    min-width: 24px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+.id {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}

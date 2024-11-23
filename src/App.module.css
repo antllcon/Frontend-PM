@@ -1,0 +1,8 @@
+
+.app {
+    display: flex;
+    /*gap: 60px;*/
+    justify-content: space-between;
+    max-width: 1660px;
+    margin: 0 auto;
+}

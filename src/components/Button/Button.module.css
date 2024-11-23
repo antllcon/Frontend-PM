@@ -1,0 +1,15 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9px;
+    align-items: center;
+    font-family: Inter, 'sans-serif';
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
